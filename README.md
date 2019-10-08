@@ -3,7 +3,9 @@
 ## Setup minikube on VirtualBox
 https://medium.com/@vovaprivalov/setup-minikube-on-virtualbox-7cba363ca3bc
 - kubectl install
+```
 	curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.9.0/bin/linux/amd64/kubectl
+```
 - kubectl setting
 	sudo chmod +x ./kubectl
 	sudo mv ./kubectl /usr/local/bin/kubectl
